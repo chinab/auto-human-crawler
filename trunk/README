@@ -1,0 +1,13 @@
+
+
+This will be a wrapper over http client to begin with
+Will handle the following, with an aim to prevent detection as a robot
+
+- Throttling
+- Getting images/css, and sending 302 requests for them
+- Handling cookies
+
+Later
+- support Javascript
+- images from within CSS (need a css parser?)
+
